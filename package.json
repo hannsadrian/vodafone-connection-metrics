@@ -1,0 +1,14 @@
+{
+  "name": "@adwirawien/vodafone-connection-metrics",
+  "version": "0.0.1",
+  "description": "View speed and connection metrics of the vodafone gateway you're behind",
+  "main": "index.js",
+  "repository": "https://github.com/adwirawien/vodafone-connection-metrics",
+  "author": "Adrian <hannsadrian@gmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "dependencies": {
+    "mri": "^1.1.6",
+    "node-fetch": "^2.6.1"
+  }
+}
