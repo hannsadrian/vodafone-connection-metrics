@@ -1,5 +1,5 @@
 {
-  "name": "@adwirawien/vodafone-connection-metrics",
+  "name": "vodafone-connection-metrics",
   "version": "0.0.1",
   "description": "View speed and connection metrics of the vodafone gateway you're behind",
   "main": "index.js",
