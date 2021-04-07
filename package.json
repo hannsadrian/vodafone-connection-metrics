@@ -20,5 +20,10 @@
   ],
   "scripts": {
     "test": "node test.js"
-  }
+  },
+  "keywords": [
+    "vodafone",
+    "vpn-detection",
+    "speedtest"
+  ]
 }
