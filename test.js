@@ -1,7 +1,7 @@
 'use strict'
 
 const {ok} = require("assert")
-const fetchMetrics = require(".")
+const {fetchMetrics} = require(".")
 
 fetchMetrics().catch(err => {
   console.log(`caught: ${err}\n`)
