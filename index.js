@@ -37,7 +37,7 @@ const printReadable = (metrics) => {
   const downstream = metrics['downstreamBooked'];
   const upstream = metrics['upstreamBooked'];
   if (downstream && upstream) {
-    process.stdout.write(`💫 Your current connection is equipped with ${downstream}mbits down- and ${upstream}mbits upload.\n\n`);
+    process.stdout.write(`💫 Your current connection is equipped with ${downstream}mbits down and ${upstream}mbits upload.\n\n`);
   }
 
   const isp = metrics['isp'];
