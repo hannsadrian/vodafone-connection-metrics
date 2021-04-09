@@ -1,6 +1,6 @@
 # vodafone-connection-metrics
 
-**View speed and connection metrics of the vodafone gateway you"re behind.** Including ISP and network information.
+**View speed and connection metrics of the vodafone gateway you're behind.** Including ISP and network information.
 
 ## Installation
 ```shell
