@@ -4,6 +4,9 @@
 const mri = require('mri')
 const pkg = require('./package.json')
 const {fetchMetrics, printReadable} = require(".")
+const updateNotifier = require("update-notifier");
+
+updateNotifier({ pkg }).notify();
 
 const argv = mri(process.argv.slice(2), {
 	boolean: [
