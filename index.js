@@ -56,7 +56,7 @@ const printReadable = (metrics) => {
   const vendor = metrics['vendor'];
   const modemType = metrics['modemType'];
   if (vendor && modemType) {
-    process.stdout.write(`📡 You receive internet from the modem of type ${modemType} vendored by ${vendor}\n\n`)
+    process.stdout.write(`📡 You receive internet from the modem of type ${modemType.code} – ${modemType.name} vendored by ${vendor}\n\n`)
   }
 
   const vpnDetected = metrics['vpnDetected']
